@@ -160,6 +160,13 @@ h2#question-text {
   margin: 20px 0;
   color: #1e3c72;
 }
+#result-screen h2 {
+  text-align: center;
+}
+
+#result-screen {
+  text-align: center;
+}
 
 #result-message {
   text-align: center;
