@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Викторина: Михаил Ломоносов</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <header>
+      <h1>Викторина о М. В. Ломоносове</h1>
+      <p class="subtitle">Проверьте, насколько хорошо вы знаете великого учёного</p>
+    </header>
+
+    <div id="start-screen" class="screen active">
+      <p>10 вопросов о жизни и научных открытиях Михаила Васильевича Ломоносова.</p>
+      <button id="start-btn" class="btn">Начать викторину</button>
+    </div>
+
+    <div id="quiz-screen" class="screen">
+      <div class="progress">
+        <div class="progress-bar" id="progress-bar"></div>
+      </div>
+      <p class="question-counter">
+        Вопрос <span id="current-q">1</span> из <span id="total-q">10</span>
+      </p>
+      <h2 id="question-text"></h2>
+      <div id="answers" class="answers"></div>
+      <p id="feedback" class="feedback"></p>
+      <button id="next-btn" class="btn hidden">Далее</button>
+    </div>
+
+    <div id="result-screen" class="screen">
+      <h2>Викторина завершена!</h2>
+      <p class="score">Ваш результат: <span id="score"></span> из <span id="max-score"></span></p>
+      <p id="result-message"></p>
+      <button id="restart-btn" class="btn">Пройти заново</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
