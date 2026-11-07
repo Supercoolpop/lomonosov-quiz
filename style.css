@@ -6,7 +6,10 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, sans-serif;
-  background: #876c59;
+  background-image: url('library.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   min-height: 100vh;
   display: flex;
   justify-content: center;
