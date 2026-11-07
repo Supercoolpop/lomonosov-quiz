@@ -31,7 +31,7 @@ header {
 
 h1 {
   font-size: 1.6rem;
-  color: #1e3c72;
+  color: #5e412e;
 }
 
 .subtitle {
@@ -171,7 +171,7 @@ h2#question-text {
   width: 160px;
   height: auto;
   border-radius: 10px;
-  border: 3px solid #1e3c72;
+  border: 3px solid #5e412e;
   margin-bottom: 15px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
