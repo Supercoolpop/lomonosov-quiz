@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, sans-serif;
-  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  background: #876c59;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -51,7 +51,7 @@ h1 {
 .btn {
   display: block;
   margin: 20px auto 0;
-  background: #1e3c72;
+  background: #5e412e;
   color: #fff;
   border: none;
   padding: 14px 32px;
@@ -62,7 +62,7 @@ h1 {
 }
 
 .btn:hover {
-  background: #2a5298;
+  background: #4a3120;
 }
 
 .btn:active {
